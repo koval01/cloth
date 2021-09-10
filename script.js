@@ -1,9 +1,3 @@
-document.getElementById('close').onmousedown = function(e) {
-  e.preventDefault();
-  document.getElementById('info').style.display = 'none';
-  return false;
-};
-
 var physics_accuracy  = 12,
     mouse_influence   = 20,
     mouse_cut         = 5,
