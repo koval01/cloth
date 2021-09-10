@@ -241,8 +241,8 @@ window.onload = function () {
     canvas  = document.getElementById('c');
     ctx     = canvas.getContext('2d');
 
-//     canvas.width  = 600;
-//     canvas.height = 400;
+    canvas.width  = 900;
+    canvas.height = 480;
 
     start();
 };
